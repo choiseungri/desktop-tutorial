@@ -1,11 +1,9 @@
-# Notion Side Panel Extension
+# Notion Panel Window Extension
 
-This Chrome extension opens a web page inside Chrome's side panel. It remembers the last page you visited so that the next time you open the panel you return to that page.
+This Chrome extension opens a narrow window on the right side of the screen and loads a web page. The extension remembers the page you last viewed so reopening the panel restores that page.
 
 ## Usage
-1. Load the extension in Chrome by navigating to `chrome://extensions` and enabling **Developer mode**.
-2. Click **Load unpacked** and select this `notion-side-panel` folder.
-3. Click the extension's toolbar icon to open the side panel.
-4. Use the text field at the top to enter a new URL if desired. The last URL is stored in browser storage.
-
-By default, it loads the provided Notion page.
+1. Navigate to `chrome://extensions` and enable **Developer mode**.
+2. Choose **Load unpacked** and select this `notion-side-panel` folder.
+3. Click the extension's icon to open the Notion panel. A popup window appears on the right showing the previously visited page (the first time it opens the provided Notion link).
+4. Browse normally inside that window. Any navigation will be saved and restored the next time the panel is opened.
