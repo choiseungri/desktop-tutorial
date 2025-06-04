@@ -1,0 +1,16 @@
+{
+  "name": "Notion Side Panel",
+  "description": "Open a webpage in the Chrome side panel and remember the last URL.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Open Side Panel"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "sidePanel"],
+  "side_panel": {
+    "default_path": "panel.html"
+  }
+}
